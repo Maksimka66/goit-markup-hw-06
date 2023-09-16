@@ -85,13 +85,15 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.navigation {
+  padding-left: 16px;
+  padding-top: 72px;
+}
+
 .header-list-links {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding-left: 16px;
-  margin-bottom: 168px;
-  margin-top: 72px;
 }
 
 .header-link {
@@ -102,21 +104,28 @@
   text-transform: capitalize;
   list-style-type: none;
   color: #2e2f42;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-link-studio {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  list-style-type: none;
   color: #404bbf;
+}
+
+.info-contacts {
+  padding-left: 16px;
+  padding-bottom: 40px;
 }
 
 .info-contacts-list {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding-left: 16px;
   list-style-type: none;
-  margin-bottom: 48px;
 }
 
 .info-contacts-connect {
@@ -130,9 +139,15 @@
   font-style: normal;
 }
 
-.info-contacts-connect:hover,
-.info-contacts-connect:focus {
-  color: #404bbf;
+.info-contacts-number {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-family: 'Roboto', sans-serif;
+  color: #4d5ae5;
+  text-decoration: none;
+  font-style: normal;
 }
 
 .network-icons {
@@ -141,8 +156,6 @@
   fill: #f4f4fd;
   justify-content: flex-start;
   list-style-type: none;
-  padding-bottom: 40px;
-  padding-left: 16px;
 }
 
 .photo-links {
@@ -153,12 +166,6 @@
   background-color: #4d5ae5;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.photo-links:hover,
-.photo-links:focus {
-  background-color: #404bbf;
 }
 
 .logo-icons {

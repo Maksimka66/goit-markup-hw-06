@@ -4,3 +4,6 @@
 
 /* Для хедеру */
 @import './layout/header.css';
+
+/* Перша секція */
+@import './layout/first\ section.css';

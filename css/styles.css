@@ -24,12 +24,7 @@
   margin-right: auto;
 }
 
-.menu-second-section {
-  list-style-type: none;
-  display: flex;
-  padding: 24px 0;
-  gap: 24px;
-}
+
 
 .main-header {
   font-size: 56px;
@@ -67,16 +62,18 @@
   gap: 24px;
 }
 
+.menu-second-section {
+  list-style-type: none;
+  display: flex;
+  padding: 24px 0;
+  gap: 24px;
+}
+
 .area-pictures {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   padding: 24px 100px;
   margin-bottom: 8px;
-}
-
-.order-service:hover,
-.order-service:focus {
-  background-color: #404bbf;
 }
 
 .part-of-list {

@@ -6,4 +6,10 @@
 @import './layout/header.css';
 
 /* Перша секція */
-@import './layout/first\ section.css';
+@import './layout/first-section.css';
+
+/* Друга секція */
+@import './layout/second-section.css';
+
+/* Третя секція */
+@import './layout/third-section.css';

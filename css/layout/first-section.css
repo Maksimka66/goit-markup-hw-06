@@ -6,7 +6,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('/images/img-mobile/Dark-bg-mobile.jpg');
+    url('../../images/img-mobile/Dark-bg-mobile.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -23,7 +23,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/img-mobile/Dark-bg-mobile@2x.jpg');
+      url('../../images/img-mobile/Dark-bg-mobile@2x.jpg');
   }
 }
 
@@ -72,7 +72,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/img-tablet/Dark-bg-tablet.jpg');
+      url('../../images/img-tablet/Dark-bg-tablet.jpg');
     padding-top: 112px;
     padding-bottom: 112px;
   }
@@ -94,7 +94,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/img-tablet/Dark-bg-tablet@2x.jpg');
+      url('../../images/img-tablet/Dark-bg-tablet@2x.jpg');
   }
 }
 
@@ -106,7 +106,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/img-desktop/Dark-bg-desktop.jpg');
+      url('../../images/img-desktop/Dark-bg-desktop.jpg');
     padding-top: 188px;
     padding-bottom: 188px;
   }
@@ -124,6 +124,6 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/img-desktop/Dark-bg-desktop@2x.jpg');
+      url('../../images/img-desktop/Dark-bg-desktop@2x.jpg');
   }
 }

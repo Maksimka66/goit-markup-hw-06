@@ -72,3 +72,22 @@
 .one-icon:focus {
   background-color: #404bbf;
 }
+
+/* Планшетні стилі */
+
+@media screen and (min-width: 768px) {
+  .team-container {
+    max-width: 584px;
+  }
+
+  .menu-third {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+
+  .list-third-section {
+    width: calc((100% - 24px) / 2);
+  }
+}

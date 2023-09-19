@@ -13,3 +13,6 @@
 
 /* Третя секція */
 @import './layout/third-section.css';
+
+/* Футер */
+@import './layout/footer.css';

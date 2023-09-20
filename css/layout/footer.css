@@ -1,6 +1,6 @@
 /* Мобільні стилі */
 
-.container-footer {
+.foot {
   background-color: #2e2f42;
   padding: 96px 16px;
 }
@@ -160,8 +160,7 @@ input::placeholder {
 
 @media screen and (min-width: 768px) {
   .container-footer {
-    padding-left: 92px;
-    padding-right: 148px;
+    width: 584px;
   }
 
   .page-foot {

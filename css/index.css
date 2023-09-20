@@ -14,5 +14,8 @@
 /* Третя секція */
 @import './layout/third-section.css';
 
+/* Четверта секція */
+@import './layout/fourth-section.css';
+
 /* Футер */
 @import './layout/footer.css';

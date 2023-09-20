@@ -92,3 +92,16 @@
     width: calc((100% - 24px) / 2);
   }
 }
+
+/* Десктопні стилі */
+
+@media screen and (min-width: 1158px) {
+  .third-section {
+    padding: 120px 0;
+  }
+
+  .menu-third {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+}

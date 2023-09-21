@@ -1,4 +1,4 @@
-/* Модалка та бекдроп */
+/* Модалка та бекдроп для мобільників */
 
 .backdrop {
   position: fixed;
@@ -22,13 +22,13 @@
 }
 
 .modal-window {
-  width: 408px;
+  width: 288px;
   min-height: 584px;
   border-radius: 4px;
   padding-top: 72px;
   padding-bottom: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
   background-color: #fcfcfc;
   position: absolute;
   top: 50%;

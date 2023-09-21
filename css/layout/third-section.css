@@ -64,6 +64,7 @@
   display: flex;
   gap: 24px;
   justify-content: center;
+  list-style-type: none;
 }
 
 .one-icon {

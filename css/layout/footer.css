@@ -210,8 +210,17 @@ input::placeholder {
   .container-footer {
     display: flex;
     gap: 80px;
-    max-width: 1440px;
+    max-width: 1160px;
     justify-content: center;
+    width: 0;
+  }
+
+  .logo-footer {
+    margin-bottom: 0;
+  }
+
+  .content-foot {
+    margin-bottom: 0;
   }
 
   .logo-plus-icons {

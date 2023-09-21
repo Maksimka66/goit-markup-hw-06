@@ -4,6 +4,10 @@
   padding: 96px 0;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 .main-header-fourth-section {
   font-size: 36px;
   font-weight: 700;
@@ -19,6 +23,8 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
+  align-items: center;
+  justify-content: center;
 }
 
 .part-of-fourth-list {
@@ -52,4 +58,60 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+/* Стилі для планшету */
+
+@media screen and (min-width: 768px) {
+  .menu-fourth {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .part-of-fourth-list {
+    border: none;
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+/* Стилі для десктопу */
+
+@media screen and (min-width: 1158px) {
+  .fourth-section {
+    padding: 120px 0;
+  }
+
+  .menu-fourth {
+    column-gap: 48px;
+  }
+
+  .part-of-fourth-list {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .pictures-fourth {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .text-fourth {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    padding: 40px 32px;
+    color: #f4f4fd;
+    height: 100%;
+    width: 100%;
+    background-color: #4d5ae5;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .part-of-fourth-list:hover .text-fourth {
+    transform: translateY(0%);
+  }
 }

@@ -19,3 +19,6 @@
 
 /* Футер */
 @import './layout/footer.css';
+
+/* Модалка та бекдроп */
+@import './layout/modal-window.css';

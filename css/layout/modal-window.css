@@ -167,6 +167,9 @@ textarea::placeholder {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .review-form-checkbox {
@@ -195,6 +198,7 @@ textarea::placeholder {
   align-items: center;
   fill: transparent;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 .review-send {
@@ -225,4 +229,12 @@ input:checked + label > span {
   border: none;
   fill: #f4f4fd;
   background-color: #404bbf;
+}
+
+/* Для планшетів та десктопів*/
+
+@media screen and (min-width: 768px) {
+  .modal-window {
+    width: 408px;
+  }
 }

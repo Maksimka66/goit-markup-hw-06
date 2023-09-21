@@ -84,11 +84,13 @@
   }
 
   .menu-fourth {
-    column-gap: 48px;
+    column-gap: 24px;
+    row-gap: 48px;
   }
 
   .part-of-fourth-list {
     width: calc((100% - 48px) / 3);
+    max-width: 360px;
   }
 
   .pictures-fourth {

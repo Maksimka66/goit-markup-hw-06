@@ -67,8 +67,8 @@
   }
 
   .part-of-fourth-list {
-    border: none;
     width: calc((100% - 24px) / 2);
+    max-width: 356px;
   }
 }
 
